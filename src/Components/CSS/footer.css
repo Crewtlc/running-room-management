@@ -1,0 +1,51 @@
+/* Footer Main Container */
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #54473F;
+    color: #E9EED9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Footer Styling */
+.left-foot {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Right Footer Styling */
+.right-foot {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+/* Location Details Styling */
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.location .side,
+.location .division,
+.location .district {
+    font-size: 0.85rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #E9EED9;
+}
+
+/* Additional Styling for Each Location Element */
+.side {
+    font-weight: bold;
+}
+
+.division, .district {
+    font-weight: normal;
+}
