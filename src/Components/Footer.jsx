@@ -5,7 +5,7 @@ function Footer(){
         <>
             <div className="footer-main">
                 <div className="left-foot">
-                    <p>Copyright c.c 2024</p>
+                    <p> All Copy rights reserved c.c 2024</p>
                 </div>
                 <div className="right-foot">
                 <div className="location">

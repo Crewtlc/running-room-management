@@ -1,4 +1,5 @@
 
+import { useNavigate } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import "./Home.css"
@@ -14,10 +15,10 @@ function Home(){
                     </div>
                     <div className="text-container">
                         <div className="Heading">
-                            Simhachalam North
+                            SIMHACHALAM-NORTH
                         </div>
                         <div className="context">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, commodi vel provident nostrum fugit blanditiis eaque non magnam quasi dignissimos, nam harum voluptas placeat accusamus accusantium ducimus obcaecati ratione fuga?
+                                It is a "B" cateogry running room having  50 beds capacity located near to Gopalapatnam Railway Station.
                         </div>
                     </div>
                 </div>
